@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background: #000;
+}
+
+
+.head {
+    display: flex;
+    background: none;
+    width: 100%;
+    z-index: 100;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: -800px;
+    
+    
+}
+
+.head a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.btn-home a,  .btn-home-sing a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    width: 205px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 8%;
+    height: 35px;
+}
+
+.btn-home-sing a {
+    display: flex;
+    height: 35px;
+    width: 350px;
+}
+
+.btn { 
+    display: inline-block;
+    border-radius: 52px;
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.btn:hover {
+    background: none;
+    color: #fff;
+}
+
+
+.btn-home-sing {    
+    top:500px;
+    position: relative;
+}
+
+.btn a {
+    margin-top: -20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh !important;
+    background: url(../img/FondoTwitch.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 100px;
+}
+
+
+.content-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.content-sau {
+    padding: 30px;
+    background: #00A8E1;
+    width: 80%;
+    margin-left: 9%;
+    border-radius: 108px;
+    margin-bottom: 30px;
+}
+
+.content-sau i {
+    font-size: 15rem;
+    color: #fff;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;   
+}
+
+.content-header .head .box-container .box {
+    height: 5rem;
+    width: 17rem;
+    background: transparent;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem  rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 36px;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+.content-contact {
+    margin-top: 20px;
+    padding-top: 20px;
+    background: #000;
+    padding-bottom: 0;
+    width: 73%;
+    margin-left: 15.2%;
+    border-radius: 10%;
+
+}
+
+figure img {
+    background: transparent;
+}
+
+figure .devices {
+    display: inline-block;
+}
