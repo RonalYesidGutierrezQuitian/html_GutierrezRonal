@@ -1,0 +1,101 @@
+* { 
+    margin: 0;
+    padding: 0;
+
+}
+
+body { 
+    display: grid;
+    grid-template-columns: 9fr 2fr;
+    height: 1080px;
+    width: 1920px;
+}
+
+.left { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background: red;
+}
+
+.content-left-logo { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.content-left-logo-1, .content-left-logo-2, .content-left-logo-3, .content-left-logo-4 {
+    border: solid black;
+    background: yellow;
+}
+
+.content-left-nav {
+    display: grid;
+    background: green;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.content-left-nav-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: solid black;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.content-left-nav-sub-1, .content-left-nav-sub-2, .content-left-nav-sub-3, .content-left-nav-sub-4 {
+    border: solid black;
+
+}
+
+
+.content-left-saldo {
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.content-left-saldo-1, .content-left-saldo-2, .content-left-saldo-3 {
+    border: solid black;
+}
+
+.content-left-saldo-3 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.content-left-sello {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.content-left-sello-1, .content-left-sello-2, .content-left-sello-3 {
+    border: solid black;
+}
+
+
+.content-left-sello-3 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+.content-left-tarjeta { 
+    background: brown;
+    position: relative;
+    display: grid;
+    
+
+}
+
+.right {
+    background: blue;
+}
+
