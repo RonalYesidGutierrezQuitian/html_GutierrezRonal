@@ -17,7 +17,6 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 100%;
-    border: solid white;
     border-radius: 1%;
 }
 
@@ -143,7 +142,6 @@ body {
     box-sizing: border-box;
     text-align: center;
     justify-content: center;
-    border: solid 212020;
     border-radius: 1%;
 }
 
