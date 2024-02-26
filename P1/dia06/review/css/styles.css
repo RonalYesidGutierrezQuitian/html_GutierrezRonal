@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    height: 1080px;
+    width: 1920px;
+
+}
+
+.left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    border: solid white;
+    border-radius: 1%;
+}
+
+.content-left-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.content-left-logo-1,
+.content-left-logo-2,
+.content-left-logo-3,
+.content-left-logo-4 {
+    background: white;
+}
+
+.content-left-logo-1 {
+    background-color: white;
+    padding: 10%;
+}
+
+.content-left-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.content-left-nav-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.content-left-nav-sub-1,
+.content-left-nav-sub-2,
+.content-left-nav-sub-3,
+.content-left-nav-sub-4 {
+    font-size: 2rem;
+    box-sizing: border-box;
+    padding: 7.5% 0px;
+
+}
+
+
+.content-left-saldo {
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.content-left-saldo-1,
+.content-left-saldo-2,
+.content-left-saldo-3 span {
+    font-size: 2rem;
+    box-sizing: border-box;
+    padding: 10% 5% 0px;
+}
+
+.content-left-saldo-1,
+.content-left-saldo-2,
+.content-left-saldo-3 h1 {
+    font-size: 2.8rem;
+    padding: 10% 5% 0px;
+}
+
+.content-left-saldo-3 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.content-left-sello {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.content-left-sello-4 {
+    background-color: #D5FF43;
+    box-sizing: border-box;
+    margin: 15%;
+    text-align: center;
+}
+
+.content-left-sello-4 p {
+    font-size: 2rem;
+    margin-top: 10%;
+}
+
+.content-left-sello-4 img {
+    margin-top: 5%;
+}
+
+.content-left-tarjeta {
+    background: brown;
+    position: relative;
+    display: grid;
+
+
+}
+
+.content-left-tarjeta {
+    z-index: 1;
+    position: absolute;
+    right: 41%;
+    bottom: 25%;
+    height: 640px;
+    width: 964px;
+    background: url(../images/Metrolinea.png) no-repeat;
+    background-size: cover;
+}
+
+.right {
+    background: #212020;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    border: solid 212020;
+    border-radius: 1%;
+}
+
+.content-right-1,
+.content-right-2,
+.content-right-3,
+.content-right-4,
+.content-right-5,
+.content-right-6,
+.content-right-7 {
+    margin-top: 33%;
+}
+
+.content-right-4,
+.content-right-2 {
+    font-size: 1.3rem;
+}
+
+.content-right-3,
+.content-right-5 {
+    color: rgb(214, 201, 185);
+}
