@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    height: 1080px;
+    width: 1920px;
+    background: white;
+}
+
+body {
+    box-sizing: border-box;
+    border: solid;
+    margin: 0px;
+    padding: 43px;
+    
+}
+
+div {
+    box-sizing: border-box;
+    border: solid blue;
+    height: 497px;
+    width: 771px;
+    margin: 0px;
+}
+
+
+#img--logo { 
+    position: absolute;
+    width: 194px;
+    height: 44px;
+}
+
+#img--comprarTarjeta {
+    position: absolute;
+    left: 251px;
+    height: 41px;
+    width: 230px;
+}
+
+#img--versaldo {
+    position: absolute;
+    left: 480px;
+    height: 41px;
+    width: 132px;
+}
+
+#img--lupa {
+    position: absolute;
+    left: 611px;
+    height: 41px;
+    width: 132px;
+}
+
+#img--carro {
+    position: absolute;
+    left: 742px;
+    height: 41px;
+    width: 132px;
+}
+
+#img-tarjetaMetrolinea {
+    z-index: 1;
+    position: absolute;
+    height: 55px;
+    width: 716px;
+    left: 70px;
+    bottom: 310px; 
+}
+
+.section3 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 497px;
+    width: 771px;
+    top: 47px;
+    left: 816px;
+}
+
+.section4 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 497px;
+    width: 771px;
+    top: 543px;
+    left: 816px;
+}
+
+.section5 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 740px;
+    width: 816px;
+    top: 170px;
+    left: 408px;
+}
+
+.section6 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 497px;
+    width: 816px;
+    top: 270px;
+    left: 408px;
+}
+
+#img--tarjeta {
+    right: -10px;
+    position: absolute;
+    height: 497px;
+    width: 884px;
+}
+
+
+
+.section7 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 228px;
+    height: 1080px;
+    background: #212020;
+    left: 1692px;
+    top: 0px;
+
+}
