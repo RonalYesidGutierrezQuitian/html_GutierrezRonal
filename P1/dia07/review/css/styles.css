@@ -1,0 +1,269 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    height: 1080px;
+    width: 1920px;
+    background: white;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 43px;
+
+}
+
+div {
+    box-sizing: border-box;
+    height: 497px;
+    width: 771px;
+    margin: 0px;
+}
+
+
+#img--logo {
+    position: absolute;
+    width: 194px;
+    height: 44px;
+}
+
+#img--comprarTarjeta {
+    position: absolute;
+    left: 200px;
+    height: 41px;
+    width: 230px;
+}
+
+#img--versaldo {
+    position: absolute;
+    left: 430px;
+    height: 41px;
+    width: 132px;
+}
+
+#img--lupa {
+    position: absolute;
+    left: 560px;
+    height: 41px;
+    width: 132px;
+}
+
+#img--carro {
+    position: absolute;
+    left: 690px;
+    height: 41px;
+    width: 132px;
+}
+
+#img-tarjetaMetrolinea {
+    z-index: 1;
+    position: absolute;
+    height: 55px;
+    width: 716px;
+    left: 70px;
+    bottom: 310px;
+}
+
+#img-tarjetaMetrolinea {
+    position: absolute;
+    height: 55px;
+    width: 716px;
+    top: 826px;
+}
+
+#img--3000 {
+    position: absolute;
+    height: 37px;
+    width: 139px;
+    top: 890px;
+    left: 70px;
+}
+
+#img--greenBackground {
+    position: fixed;
+    top: 820px;
+    left: 1400px;
+    height: 160px;
+    width: 200px;
+}
+
+#img--logoInferior {
+    background: transparent;
+    position: absolute;
+    top: 300px;
+    left: 598px;
+    height: 60px;
+    width: 168px;
+}
+
+#img--comprar {
+    background: transparent;
+    position: absolute;
+    top: 370px;
+    left: 608px;
+    height: 40px;
+    width: 168px;
+}
+
+#img--recargar {
+    background: transparent;
+    position: absolute;
+    top: 370px;
+    left: 608px;
+    height: 40px;
+    width: 168px;
+    border: none;
+    font-size: 25px;
+    font-size: 2rem;
+}
+
+
+.section3 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 497px;
+    width: 771px;
+    top: 47px;
+    left: 816px;
+}
+
+.section4 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 497px;
+    width: 771px;
+    top: 543px;
+    left: 816px;
+}
+
+.section4-2 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 497px;
+    width: 771px;
+    top: 543px;
+    left: 816px;
+}
+
+.section5 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 497px;
+    width: 816px;
+    top: 270px;
+    left: 408px;
+}
+
+.section6 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 60px;
+    width: 756px;
+    top: 95px;
+    left: 408px;
+}
+
+.section6 h1 {
+    position: absolute;
+    height: 60px;
+    width: 950px;
+    top: 450px;
+    left: 100px;
+    font-size: 3rem;
+}
+
+.section6 h2 {
+    position: absolute;
+    height: 65px;
+    width: 450px;
+    top: 520px;
+    left: 220px;
+    font-size: 2.5rem;
+    
+}
+
+.section6 h3 {
+    position: absolute;
+    height: 60px;
+    width: 450px;
+    top: 585px;
+    left: 300px;
+    font-size: 2.5rem;
+
+}
+
+.section6 h4 {
+    position: absolute;
+    height: 60px;
+    width: 680px;
+    top: 650px;
+    left: 400px;
+    font-size: 2.5rem;
+
+}
+
+.section6 #img--tarjeta { 
+    left: 0px;
+    position: absolute;
+    height: 497px;
+    width: 884px;
+}
+
+
+#img--tarjeta {
+    right: -10px;
+    position: absolute;
+    height: 497px;
+    width: 884px;
+}
+
+
+
+.section7 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 228px;
+    height: 1080px;
+    background: #212020;
+    left: 1692px;
+    top: 0px;
+}
+
+#img--flechaArriba {
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    background: transparent;
+    top: 50px;
+    left: 80px;
+}
+
+
+#img--cantidad {
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    background: transparent;
+    top: 250px;
+    left: 45px;
+}
+
+
+#img--menu {
+    position: absolute;
+    height: 220px;
+    width: 40px;
+    background: transparent;
+    top: 450px;
+    left: 85px;
+}
+
+
+#img--flechaAbajo {
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    background: transparent;
+    top: 980px;
+    left: 80px;
+}
