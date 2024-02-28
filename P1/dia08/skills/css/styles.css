@@ -114,7 +114,7 @@ div {
     height: 3.7vh;
     width: 8.7vw;
     border: none;
-    font-size: 2.9vh;
+    font-size: 2.9vmin;
 }
 
 
@@ -164,41 +164,41 @@ div {
 }
 
 .section6 h1 {
-    position: absolute;
+    position: relative;
     height: 5.5vh;
-    width: 49.4vw;
+    width: 59.4vmax;
     top: 41.6vh;
     left: 5.2vw;
-    font-size: 4.4vh;
+    font-size: 4.4vmin;
 }
 
 .section6 h2 {
-    position: absolute;
+    position: relative;
     height: 6vh;
     width: 41.6vh;
-    top: 48.1vh;
+    top: 44.1vh;
     left: 11.4vw;
-    font-size: 2.3.7vh;
+    font-size: 2.7vmin;
     
 }
 
 .section6 h3 {
-    position: absolute;
+    position: relative;
     height: 5.5vh;
     width: 23.4vw;
-    top: 54.1vh;
+    top: 44.1vh;
     left: 15.6vw;
-    font-size: 3.7vh;
+    font-size: 3.7vmin;
 
 }
 
 .section6 h4 {
-    position: absolute;
+    position: relative;
     height: 5.5vh;
     width: 19.8vw;
-    top: 60.2vh;
+    top: 45.2vh;
     left: 20.8vw;
-    font-size: 3.7vh;
+    font-size: 3.7vmin;
 
 }
 
