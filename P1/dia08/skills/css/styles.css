@@ -57,6 +57,8 @@ div {
     width: 6.9vw;
 }
 
+
+
 #img-tarjetaMetrolinea {
     position: absolute;
     height: 5.1vh;
@@ -106,7 +108,7 @@ div {
     width: 8.7vw;
 }
 
-#img--recargar {
+#img--recargarComprar {
     background: transparent;
     position: absolute;
     top: 39vh;
@@ -117,6 +119,9 @@ div {
     font-size: 2.9vmin;
 }
 
+.section2 {
+    /* display: none; */
+}
 
 .section3 {
     box-sizing: border-box;
@@ -137,6 +142,7 @@ div {
 }
 
 .section4-2 {
+    display: none;
     box-sizing: border-box;
     position: absolute;
     height: 46vh;
@@ -155,6 +161,7 @@ div {
 }
 
 .section6 {
+    display: none;
     box-sizing: border-box;
     position: absolute;
     height: 5.5vh;
@@ -218,13 +225,30 @@ div {
 }
 
 
-
 .section7 {
+    overflow: hidden;
     position: absolute;
     box-sizing: border-box;
-    width: 11.8vw;
+    width: 9vw;
     height: 100vh;
     background: #212020;
+    color: white;
+    font-size: 2.4vh;
+    right: 0vw;
+    top: 0vh;
+    margin-right: 0vw;
+}
+
+.section7-2{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    box-sizing: border-box;
+    width: 9vw;
+    height: 100vh;
+    background: #212020;
+    color: white;
+    font-size: 2.4vh;
     right: 0vw;
     top: 0vh;
     margin-right: 0vw;
@@ -236,7 +260,7 @@ div {
     width: 2.7vw;
     background: transparent;
     top: 13.8vh;
-    left: 4.1vw;
+    left: 3.5vw;
 }
 
 
@@ -246,7 +270,16 @@ div {
     width: 7.8vw;
     background: transparent;
     top: 23.1vh;
-    left: 2.3vw;
+    left: 1.7vw;
+}
+
+#img--valor {
+    position: absolute;
+    height: 3.7vh;
+    width: 7.8vw;
+    background: transparent;
+    top: 23.1vh;
+    left: 2.8vw;
 }
 
 
@@ -256,9 +289,17 @@ div {
     width: 2.1vw;
     background: transparent;
     top: 41.6vh;
-    left: 4.4vw;
+    left: 3.9vw;
 }
 
+#img--menu-2 {
+    position: absolute;
+    height: 20.3vh;
+    width: 2.1vw;
+    background: transparent;
+    top: 41.6vh;
+    left: 3vw;
+}
 
 #img--flechaAbajo {
     position: absolute;
@@ -266,5 +307,9 @@ div {
     width: 2.7vw;
     background: transparent;
     bottom: 13.8vh;
-    left: 4.1vw;
+    left: 3.5vw;
 }
+
+
+
+
