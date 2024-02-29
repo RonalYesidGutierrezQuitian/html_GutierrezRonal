@@ -27,11 +27,16 @@ div {
 }
 
 #img--comprarTarjeta {
+    border-radius: 40%;
     position: absolute;
     left: 10.4vw;
     height: 3.8vh;
     width: 12vw;
+
+    /* Añadir sombra */
+    box-shadow: 0px 04px 2px rgba(0, 0, 0, 0.2); /* Puedes ajustar los valores según sea necesario */
 }
+
 
 #img--versaldo {
     position: absolute;
