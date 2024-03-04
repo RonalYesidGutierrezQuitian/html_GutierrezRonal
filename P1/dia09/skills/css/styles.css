@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+body {
+    background: wheat;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 3vi;
+
+text-align: center;}
+
+a {
+    width: 13vi;
+    margin: 0 5vi;
+    border: double blue;
+    text-align: center;
+    text-decoration: none;
+}
