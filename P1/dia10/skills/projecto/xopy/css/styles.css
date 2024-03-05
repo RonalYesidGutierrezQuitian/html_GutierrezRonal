@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#video-65e71698d92bc {
+    position: absolute;
+    width: 100%;
+    padding-bottom: 56.25%; /* Este valor mantiene la proporción 16:9 para videos */
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

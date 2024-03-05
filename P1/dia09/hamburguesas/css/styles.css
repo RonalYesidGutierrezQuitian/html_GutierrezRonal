@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    height: 1080px;
+    width: 1920px;
+    background: #1e1d2b;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.section1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100vmax;
+    height: 75vmin;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 2.5%;
+}
+
+.section2 {
+    box-sizing: border-box;
+    top: 75vmin;
+    position: absolute;
+    width: 100%;
+    height: 85vmin;
+}
+
+.section3 {
+    box-sizing: border-box;
+    top: 160vmin;
+    position: absolute;
+    width: 100%;
+    height: 83%;
+    
+}
+
+.section4 {
+    box-sizing: border-box;
+    top: 245vmin;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+}
+
+.section5 {
+    box-sizing: border-box;
+    top: 313vmin;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+}
+
+.section6 {
+    box-sizing: border-box;
+    top: 383vmin;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.section1 h1 {
+    margin-left: 5vmax;
+    color: #ff702a;
+    top: 2.5vmax;
+    font-size: 2.5vmax;
+}
+
+yesleft span {
+    color: #ff702a;
+    font-size: 5vmax;
+    position: relative;
+    left: 10.5vmax;
+    top: 9vmax;
+}
+
+yesleft p {
+    color: #ffffff;
+    font-size: 2.5vmax;
+    position: relative;
+    left: 10.5vmax;
+    top: 10vmax;
+}
+
+.section1 .boton { 
+    background: #ff702a;
+    color: white;
+    height: 2.5vmax;
+    border: none;
+    font-size: 1.8vmax;
+    padding: 0 1vmax;
+    position: relative;
+    top: -16vmax;
+    left: 11vmax;
+}
+
+yesleft img {
+    position: relative;
+    top: -8vmax;
+    height: 30vmax;
+    width: 30vmax;
+    left: 50vmax;
+}
+
+
+
+noleft {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    position: relative;
+    left: -7.5%;
+}
+noleft h2 {
+    color: white;
+    margin-left: 10%;
+    font-size: 2vmax;
+}
+
+
+
+/* section 2 */
+.section2 img {
+    position: relative;
+    width: 28vmax;
+    height: 28vmax;
+    top: 11vmax;
+    left: 18vmax;
+}
+
+.section2 span{
+    position: relative;
+    top: -12vmax;
+    left: 26vmax;
+    color: #ff702a;
+    font-size: 1.8vmax;
+}
+
+.section2 h2 {
+    position: relative;
+    top: -11.5vmax;
+    left: 54.5vmax;
+    font-size: 3.4vmax;
+    color: white;
+    width: 35vmax;
+}
+
+.section2 p {
+    position: relative;
+    top: -11vmax;
+    left: 54.5vmax;
+    color: white;
+    font-size: 1.5vmax;
+    width: 30vmax;
+}
+
+
+
+.section2 .boton { 
+    background: #ff702a;
+    color: white;
+    height: 2.5vmax;
+    border: none;
+    font-size: 1.5vmax;
+    padding: 0 1vmax;
+    position: relative;
+    top: -8vmax;
+    left: 54.6vmax;
+}
+
+
+/*Section 3*/
+.section3 span { 
+    position: relative;
+    top: 3vmax;
+    left: 43vmax;
+    font-size: 2vmax;
+    color: #ff702a;
+    width: 10vmax;
+
+}
+
+
+.section3 h2 {
+    position: relative;
+    top: 6vmax;
+    left: 22vmax;
+    color: white;
+    font-size: 3.5vmax;
+    width: 60vmax;
+}
+
+.section3 h3 {
+    font-size: 1.5vmax;
+}
+
+.section3 h4 { 
+    font-size: 1.2vmax;
+}
+
+.section3 p {
+    font-size: 1.2vmax;
+    color: #ff702a;
+}
+
+.section3 img { 
+    position: relative;
+    top: 10vmax;
+    left: 8vmax;
+    width: 16vmax;
+    height: 16vmax;
+    margin-left: 4vmax;
+    background: #ffefe8;
+    padding: 1vmax 3vmax 7vmax 3vmax;
+}
+
+.section3 .name1 {
+    position: relative;
+    top: 3vmax;
+    left: 17vmax;
+}
+
+.section3 .name2 {
+    position: relative;
+    top: -1.5vmax;
+    left: 41.5vmax;
+}
+.section3 .name3 {
+    position: relative;
+    top: -5.9vmax;
+    left: 69vmax;
+}
+
+
+.section3 .description1 {
+    position: relative;
+    top: 3.5vmax;
+    left: 19.5vmax;
+}
+
+.section3 .description2 {
+    position: relative;
+    top: -0.9vmax;
+    left: 46.5vmax;
+}
+
+.section3 .description3 {
+    position: relative;
+    top: -5.3vmax;
+    left: 72.5vmax;
+}
+
+.section3 .price1 {
+    position: relative;
+    top: 4vmax;
+    left: 20.3vmax;
+}
+
+.section3 .price2 {
+    position: relative;
+    top: -0.4vmax;
+    left: 47.3vmax;
+}
+
+.section3 .price3 {
+    position: relative;
+    top: -4.8vmax;
+    left: 73.5vmax;
+}
+
+
+/*Section4*/
+.section4 span { 
+    position: relative;
+    top: 3vmax;
+    left: 45vmax;
+    font-size: 1.8vmax;
+    color: #ff702a;
+    width: 10vmax;
+
+}
+
+
+.section4 h2 {
+    position: relative;
+    top: 4vmax;
+    left: 20vmax;
+    color: white;
+    font-size: 3.2vmax;
+    width: 60vmax;
+}
+
+.section4 h3 {
+    font-size: 1.5vmax;
+    color: #ff702a;
+}
+
+
+.section4 p {
+    font-size: 1.3vmax;
+    color: white;
+}
+
+.section4 img { 
+    position: relative;
+    top: 5vmax;
+    left: 8vmax;
+    width: 16vmax;
+    height: 16vmax;
+    margin-left: 4vmax;
+    padding: 1vmax 3vmax 7vmax 3vmax;
+}
+
+.section4 .name1 {
+    position: relative;
+    top: -2.5vmax;
+    left: 16vmax;
+}
+
+.section4 .name2 {
+    position: relative;
+    top: -10.2vmax;
+    left: 46vmax;
+}
+.section4 .name3 {
+    position: relative;
+    top: -17.9vmax;
+    left: 76vmax;
+}
+
+
+.section4 .description1 {
+    position: relative;
+    top: -0.5vmax;
+    left: 11vmax;
+    width: 20vmax;
+}
+
+.section4 .description2 {
+    position: relative;
+    top: -8.2vmax;
+    left: 41vmax;
+    width: 20vmax;
+
+}
+
+.section4 .description3 {
+    position: relative;
+    top: -16vmax;
+    left: 71vmax;
+    width: 20vmax;
+
+}
+
+/* section5*/
+.section5 .squeare {
+    background: #fff;
+    width: 85vmax;
+    margin-left: 7.5vmax;
+    height: 25vmax;
+    margin-top: 7vmax;
+}
+
+.section5 .boton { 
+    background: #ff702a;
+    color: white;
+    height: 2.5vmax;
+    border: none;
+    font-size: 1.3vmax;
+    padding: 0 1vmax;
+    position: relative;
+    top: 9vmax;
+    left: 36vmax;
+}
+
+.section5 h6 {
+    font-size: 3vmax;
+    width: 40vmax;
+    text-align: center;
+    position: relative;
+    top: 5vmax;
+    left: 21.5vmax;
+}
+
+
+/*section6*/
+
+.section6 .contact {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.section6 h6{
+    color: white;
+    font-size: 1.8vmax;
+    margin: 0 1vmax;
+    position: relative;
+    left: 17vmax;
+    top: 5vmax;
+    margin-bottom: 2vmax;
+    border-bottom: solid;
+    border-color: #ff702a;
+}
+
+
+.section6 li{
+    color: white;
+    font-size:1.3vmax;
+    margin: 0 2vmax;
+    position: relative;
+    top: 5vmax;
+    left: 16vmax;
+    list-style-type: none;
+}
+
+.section6 .contact li {
+    margin: 0.5vmax;
+    width: 2vmax;
+    position: relative;
+    left: 17.5vmax;
+}
+
+/* 
+.section1 .title_menu1 { 
+    color: white;
+    position: relative;
+    top: 0vh;
+}
+
+
+.section1 .title_menu2 { 
+    color: white;
+    position: relative;
+    top: -4.1%;
+    left: 66%;
+}
+
+
+.section1 .title_menu3 { 
+    color: white;
+    position: relative;
+    top: -8.4%;
+    left: 72%;
+}
+
+
+.section1 .title_menu4 { 
+    color: white;
+    position: relative;
+    top: -12.5%;
+    left: 78%;
+}
+
+
+.section1 .title_menu5 { 
+    color: white;
+    position: relative;
+    top: -12.5vh;
+    left: 86%;
+} */
