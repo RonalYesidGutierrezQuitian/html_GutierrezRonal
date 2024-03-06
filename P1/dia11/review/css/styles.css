@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.fondo {
+    background-image: url(../images/9200913.jpg);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vmin;
+    width: 100vmax;
+
+}
+
+.fondo>.sol {
+    width: 12vw;
+    height: 24vh;
+    background-image: url(../images/sol.png);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    position: relative;
+    left: 80vw;
+    background-position: -42vw -10vh;
+    /* background-position: -40vw -38vh;
+    background-position: -16vw -38vh;
+    background-position: -2.5vw -10vh; */
+
+    animation: movimientoSol 20s infinite;
+
+
+}
+
+.fondo>.nube {
+    width: 10vw;
+    height: 12vh;
+    background-image: url(../images/nube.png);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position: -13vw -39vh;
+    position: relative;
+    left: 89vw;
+    opacity: 0;
+    animation: movimientoNube 20s;
+}
+
+.fondo>.lluvia {
+    width: 20vw;
+    height: 24vh;
+    background-image: url(../images/rain.png);
+    background-repeat: no-repeat;
+    background-size: 35vh;
+    background-position: 0.5vw -8vh;
+    position: relative;
+    left: 40vw;
+    opacity: 0;
+    animation: movimientoLluvia 20s;
+    top: 0vh;
+}
+
+.fondo>.casa {
+    position: absolute;
+    top: 45vh;
+    left: 80vw;
+    height: 40vh;
+    background-image: url(../images/casa.png);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    width: 20vw;
+}
+
+.fondo>.flor {
+    position: absolute;
+    background-image: url(../images/flor.png);
+    background-repeat: no-repeat;
+    background-size: 25vh;
+    width: 15vw;
+    top: 99vh;
+    height: 40vh;
+    left: 43vw;
+    animation: movimientoFlor 20s;
+}
+
+.fondo>.conteo {
+    background-image: url(../images/coneteo.png);
+    width: 4vw;
+    height: 6vh;
+    background-repeat: no-repeat;
+    background-size: 35vh;
+    position: absolute;
+    top: 45vh;
+    left: 45vw;
+    background-position: -0.8vw;
+    opacity: 0;
+    animation: movimientoConteo 6s;
+
+}
+
+
+@keyframes movimientoLluvia {
+    60% {
+        opacity: 0;
+        top: 0vh;
+    }
+
+    70% {
+        top: 20vh;
+        opacity: 1;
+    }
+
+    80.001% {
+        opacity: 0;
+        top: 20vh;
+    }
+
+    100% {
+        top: 20vh;
+    }
+}
+
+@keyframes movimientoFlor {
+    70.9% {
+        top: 99vh;
+    }
+
+    71% {
+        top: 89vh;
+    }
+
+    100% {
+        top: 60vh;
+    }
+}
+
+@keyframes movimientoNube {
+    30% {
+        opacity: 0;
+        left: 89vw;
+    }
+
+    57% {
+        background-position: -12vw -39vh;
+        opacity: 1;
+    }
+
+    57.005% {
+        background-position: -11.9vw -68vh;
+        opacity: 1;
+    }
+
+    67% {
+        left: 45vw;
+        opacity: 1;
+        background-position: -11.9vw -68vh;
+    }
+
+    67.001% {
+        background-position: -2vw -68vh;
+    }
+
+    87% {
+        background-position: -2vw -68vh;
+        left: 0vw;
+    }
+
+    /* to {
+        left: 0vw;
+    } */
+}
+
+@keyframes movimientoConteo {
+    20% {
+        background-position: -0.8vw;
+        opacity: 1;
+        transition: none;
+    }
+
+    20.001% {
+        opacity: 0;
+        transition: none;
+        background-position: -9.5vh;
+    }
+
+    45% {
+        background-position: -9.5vh;
+        opacity: 1;
+        transition: none;
+    }
+
+    45.001% {
+        background-position: -17.3vh;
+        opacity: 0;
+
+    }
+
+    65% {
+        background-position: -17.3vh;
+        opacity: 1;
+        transition: none;
+    }
+
+    65.001% {
+        background-position: -25.5vh;
+        opacity: 0;
+    }
+
+    86% {
+        background-position: -25.5vh;
+        opacity: 1;
+        transition: none;
+    }
+
+    86.001% {
+        opacity: 0;
+        background-position: -0.8vw;
+    }
+}
+
+
+@keyframes movimientoSol {
+    44.999% {
+        background-position: -42vw -10vh;
+    }
+
+    45% {
+        background-position: -40vw -38vh;
+    }
+
+    59.999% {
+        background-position: -40vw -38vh;
+    }
+
+    60% {
+        background-position: -16vw -38vh;
+    }
+
+    75.999% {
+        background-position: -16vw -38vh;
+    }
+
+    76% {
+        background-position: -2.5vw -10vh;
+    }
+
+    100% {
+        background-position: -2.5vw -10vh;
+    }
+}
