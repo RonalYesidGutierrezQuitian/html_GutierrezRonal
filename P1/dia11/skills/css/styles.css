@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+.fondo {
+    background-image: url(../images/9200913.jpg);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vmin;
+    width: 100vmax;
+    
+}
+
+.fondo > .sol { 
+    border: solid red;
+    width: 10vw;
+    height: 12vh;
+    background-image: url(../images/sol.png);
+    background-repeat: no-repeat;
+    background-size: 50vh;
+    position: relative;
+    left: 80vw;
+    background-position: 1.3vw -19vh
+}
+
+.fondo > .nube { 
+    border: solid red;
+    width: 10vw;
+    height: 12vh;
+    background-image: url(../images/nube.png);
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    background-position: -17vw -40vh;
+    position: relative;
+    left: 89vw;
+}
+
+.fondo > .lluvia { 
+    border: solid red;
+    width: 20vw;
+    height: 24vh;
+    background-image: url(../images/rain.png);
+    background-repeat: no-repeat;
+    background-size: 35vh;
+    background-position: 0.5vw -8vh;
+    position: relative;
+    left: 40vw;
+
+}
+
+.fondo > .casa { 
+    border: solid red;
+    position: absolute;
+    top: 70vh;
+    left: 80vw;
+    height: 20vh;
+    background-image: url(../images/casa.png);
+    background-repeat: no-repeat;
+    background-size: 22vh;
+    width: 20vw;
+}
+
+.fondo > .flor { 
+    border: solid red;
+}
