@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    padding: 10vh;
+} 
+div.a {
+  width: 80px;
+  height: 80px;
+  background-image: linear-gradient(to right, red, orange, yellow, green, indigo, violet);
+  transform: rotate(0deg);
+  animation: rotando 10s infinite;
+  border-radius: 50%;
+  position: relative;
+}
+
+@keyframes rotando {
+  25%{transform: rotate(180deg);top:750px;  background-image: linear-gradient(to right, violet, indigo, green, yellow, orange, red);
+}
+  50%{transform: rotate(360deg);top:500px}
+  75% {transform: rotate(540deg);top:250px}
+  100% {transform: rotate(1080deg);top:0px}
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="a"></div>
+
+
+</body>
+</html>

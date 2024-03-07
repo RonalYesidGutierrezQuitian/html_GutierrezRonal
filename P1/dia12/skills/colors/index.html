@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+/* div {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation: mymove 1s infinite;
+  align-content: center;
+  border-radius: 50%;
+} */
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid lightblue;
+    animation: mymove 1s infinite;
+}
+
+
+@keyframes mymove {
+  0%   {top: 0px;
+  background: red;}
+  25%  {top: 800px;
+  background: green;}
+  75%  {top: 200px;
+  background: blue;}
+  99.99% {top: 400%;
+  background: magenta;}
+  100% {top: 0px;
+  background: red;}
+}
+</style>
+</head>
+<body>
+
+
+<div></div>
+<div id="triangle"></div>
+
+</body>
+</html>
